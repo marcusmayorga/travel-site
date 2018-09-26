@@ -9,6 +9,7 @@
   &--medium {
     max-width: 976px;
   }
+
   &--narrow {
     max-width: 470px;
   }
@@ -37,12 +38,13 @@
     padding-left: 0;
     padding-right: 0;
   }
+
   &--b-margin {
     margin-bottom: 1rem;
 
     @mixin atSmall {
       margin-bottom: 3.875rem;
     }
-
   }
+
 }
